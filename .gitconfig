@@ -1,0 +1,15 @@
+[user]
+	name = Selwyn
+	email = talk@selwyn.cc
+[alias]
+	ad = add .
+	br = branch
+	ci = commit
+	co = checkout
+	lo = log --oneline -n 15
+	st = status
+	up = pull --rebase
+[push]
+	default = current
+[core]
+	editor = vim
