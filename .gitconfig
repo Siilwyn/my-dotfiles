@@ -12,4 +12,4 @@
 [push]
 	default = current
 [core]
-	editor = vim
+	editor = vim -c 'startinsert'
