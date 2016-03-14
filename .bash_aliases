@@ -11,5 +11,6 @@ alias ll='ls -l --almost-all --human-readable'
 alias naut='nautilus .'
 
 # npm
-alias ns='npm start'
-alias ni='npm install'
+alias nps='npm start'
+alias npi='npm install'
+alias npl='npm ls --depth 0'
