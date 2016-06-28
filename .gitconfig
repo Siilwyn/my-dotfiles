@@ -1,15 +1,15 @@
 [user]
-	name = Selwyn
-	email = talk@selwyn.cc
+    name = Selwyn
+    email = talk@selwyn.cc
 [alias]
-	ad = add .
-	br = branch
-	ci = commit
-	co = checkout
-	lo = log --oneline -n 15
-	st = status
-	up = pull --rebase
+    ad = add .
+    br = branch
+    ci = commit
+    co = checkout
+    lo = log --oneline -n 15
+    st = status
+    up = pull --rebase
 [push]
-	default = current
+    default = current
 [core]
-	editor = vim -c 'put_' -c 'startinsert'
+    editor = nvim -c 'put_' -c 'startinsert'
