@@ -3,6 +3,9 @@
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 
+# Enable aliases after `sudo`
+alias sudo='sudo '
+
 # General
 alias cl='clear'
 alias doh='sudo $(history -p !!)'
