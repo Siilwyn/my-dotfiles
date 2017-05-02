@@ -9,7 +9,6 @@ alias sudo='sudo '
 # General
 alias cl='clear'
 alias doh='sudo $(history -p !!)'
-alias prune-branches='git branch --merged | grep -v "\*" | xargs -n 1 git branch -d'
 alias ll='ls -l --almost-all --human-readable'
 alias naut='nautilus .'
 
