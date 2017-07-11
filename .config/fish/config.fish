@@ -1,23 +1,15 @@
-# Custom user defined aliases and functions
-
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 
-# Enable aliases after `sudo`
-alias sudo='sudo '
-
 # General
-alias cl='clear'
-alias doh='sudo $(history -p !!)'
+alias doh='commandline -i "sudo $history[1]"; history --delete "$history[1]"'
 alias ll='ls -l --almost-all --human-readable'
-alias naut='nautilus .'
 
 # List contents after moving to given directory
-cs()
-{
-    cd "$@"
-    ls -A
-}
+function cs
+  cd $argv
+  ls -A
+end
 
 # npm
 alias nps='npm start'
