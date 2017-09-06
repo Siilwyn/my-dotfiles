@@ -15,4 +15,5 @@ end
 # npm
 alias nps='npm start'
 alias npi='npm install'
+alias npt='npm test'
 alias npl='npm ls --depth 0'
