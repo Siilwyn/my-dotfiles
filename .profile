@@ -5,4 +5,4 @@ export NPM_CONFIG_CACHE=~/.cache/npm
 export NPM_CONFIG_USERCONFIG=~/.config/npmrc
 export RUSTUP_HOME=~/.cache/rustup
 
-export PATH=~/.local/bin:$PATH
+export PATH="$PATH:~/.local/bin"
