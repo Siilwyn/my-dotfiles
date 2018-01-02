@@ -1,5 +1,12 @@
 # Set environment variables
-source $HOME/.profile
+set -x CARGO_HOME ~/.cache/cargo
+set -x NODE_ENV development
+set -x NODE_REPL_HISTORY ~/.cache/.node-repl
+set -x NPM_CONFIG_CACHE ~/.cache/npm
+set -x NPM_CONFIG_USERCONFIG ~/.config/npmrc
+set -x RUSTUP_HOME ~/.cache/rustup
+
+set -x PATH $PATH ~/.local/bin $CARGO_HOME/bin
 
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
