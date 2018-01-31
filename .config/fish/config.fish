@@ -1,3 +1,5 @@
+set fish_greeting
+
 # Set environment variables
 set -x CARGO_HOME ~/.cache/cargo
 set -x NODE_ENV development
