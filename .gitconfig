@@ -14,3 +14,5 @@
 [core]
     editor = nvim -c 'put_' -c 'startinsert'
     excludesfile = ~/.config/.global-gitignore
+[rebase]
+    autoStash = true
