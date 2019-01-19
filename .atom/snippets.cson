@@ -1,7 +1,0 @@
-'.source.js':
-  'log with magic':
-    'prefix': 'lom'
-    'body': 'console.log($1, $2);$3'
-  'just log it already':
-    'prefix': 'lo'
-    'body': 'console.log(\'ᕙ〳 ರ ︿ ರೃ 〵ᕗ\');$1'
