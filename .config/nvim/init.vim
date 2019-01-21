@@ -10,3 +10,8 @@ match ExtraWhitespace /\s\+$\|\t/
 
 " Keep undo history between sessions
 set undofile
+
+" Handle plugins with vim-plug
+call plug#begin('~/.config/nvim/plugged')
+Plug 'sgur/vim-editorconfig'
+call plug#end()
