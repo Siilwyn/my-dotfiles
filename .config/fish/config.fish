@@ -15,7 +15,7 @@ set -x PATH $PATH ~/.local/bin $CARGO_HOME/bin
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 
 # General
-alias doh='commandline -i "sudo $history[1]"; history delete --exact --case-sensitive "$history[1]"'
+alias doh='commandline -i "sudo $history[1]"; history delete --exact --case-sensitive doh'
 alias ll='ls -l --almost-all --human-readable'
 
 # npm
