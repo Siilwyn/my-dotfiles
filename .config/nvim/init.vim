@@ -1,5 +1,5 @@
 " Show line numbers
-set number
+set number relativenumber
 
 " Set line number color
 highlight LineNr ctermfg=darkgrey
