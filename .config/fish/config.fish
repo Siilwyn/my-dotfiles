@@ -10,7 +10,7 @@ set -x NPM_CONFIG_OPTIONAL false
 set -x CARGO_HOME ~/.cache/cargo
 set -x RUSTUP_HOME ~/.cache/rustup
 
-set -x PATH $PATH ~/.local/bin $CARGO_HOME/bin
+set -x PATH $PATH $CARGO_HOME/bin
 
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
