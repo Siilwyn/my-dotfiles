@@ -10,8 +10,9 @@ set -x NPM_CONFIG_OPTIONAL false
 
 set -x CARGO_HOME ~/.cache/cargo
 set -x RUSTUP_HOME ~/.cache/rustup
+set -x VOLTA_HOME ~/.cache/volta
 
-set -x PATH $PATH $CARGO_HOME/bin
+set -x PATH $PATH $CARGO_HOME/bin $VOLTA_HOME/bin
 
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
