@@ -13,5 +13,5 @@ set undofile
 
 " Handle plugins with vim-plug
 call plug#begin('~/.config/nvim/plugged')
-Plug 'sgur/vim-editorconfig'
+Plug 'editorconfig/editorconfig-vim'
 call plug#end()
