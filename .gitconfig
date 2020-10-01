@@ -9,6 +9,7 @@
     lo = log --oneline -n 15
     st = status
     up = pull --rebase
+    re = restore
 [push]
     default = current
 [core]
