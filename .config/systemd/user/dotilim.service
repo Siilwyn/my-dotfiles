@@ -1,0 +1,11 @@
+[Unit]
+Description=Dotilim
+Documentation=https://github.com/Siilwyn/dotilim
+
+[Service]
+ExecStart=/home/siilwyn/codeground/dotilim/target/release/dotilim
+Restart=always
+RestartSec=600
+
+[Install]
+WantedBy=default.target
