@@ -1,0 +1,4 @@
+version = 1
+sources = ["~/Pictures/Wallpapers/**/*.jpg"]
+duration = 10000
+order = "random"
