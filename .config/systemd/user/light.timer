@@ -1,0 +1,9 @@
+[Unit]
+Description=Change the desktop appearance to a light theme on sunrise.
+
+[Timer]
+OnCalendar=*-*-* 07:00:00
+Persistent=true
+
+[Install]
+WantedBy=default.target
