@@ -20,6 +20,7 @@ alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 # General
 alias doh='commandline -i "sudo $history[1]"; history delete --exact --case-sensitive doh'
 alias ll='ls -l --almost-all --human-readable'
+alias vi='nvim'
 
 # npm
 alias nps='npm start'
