@@ -12,7 +12,7 @@ set -x CARGO_HOME ~/.cache/cargo
 set -x RUSTUP_HOME ~/.cache/rustup
 set -x VOLTA_HOME ~/.cache/volta
 
-set -x PATH $PATH $CARGO_HOME/bin $VOLTA_HOME/bin
+set -x PATH $VOLTA_HOME/bin $CARGO_HOME/bin $PATH
 
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
