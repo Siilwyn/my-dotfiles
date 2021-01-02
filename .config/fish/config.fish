@@ -1,7 +1,6 @@
 set fish_greeting
 
 # Set environment variables
-set -x NODE_ENV development
 set -x NODE_REPL_HISTORY ~/.cache/.node-repl
 set -x NPM_CONFIG_CACHE ~/.cache/npm
 set -x NPM_CONFIG_USERCONFIG ~/.config/npmrc
