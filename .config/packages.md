@@ -1,10 +1,10 @@
 - git
 - neovim
-- dog
 - httpie
 - glow
 - dijo
 - pastel
+- bore
 
 - rustup
 - volta
@@ -12,8 +12,12 @@
 - docker
 
 - firefox
-- brave
+- chromium
 - vscode
+- geary
 - gnome-pomodoro
+- solanum?
+- fractal?
+- fragments?
 
 - fira-code
