@@ -9,15 +9,14 @@
 - rustup
 - volta
 - syncthing
-- docker
+- podman
 
 - firefox
 - chromium
 - vscode
 - geary
 - gnome-pomodoro
-- solanum?
-- fractal?
-- fragments?
+- fractal
+- fragments
 
 - fira-code
