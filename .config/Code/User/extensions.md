@@ -1,0 +1,4 @@
+- vscodevim.vim
+- editorconfig.editorconfig
+- github.github-vscode-theme
+- matklad.rust-analyzer
