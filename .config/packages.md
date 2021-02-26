@@ -1,3 +1,4 @@
+- fish
 - git
 - neovim
 - httpie
