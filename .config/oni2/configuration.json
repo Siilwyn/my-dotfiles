@@ -1,0 +1,6 @@
+{
+  "editor.fontSize": 16,
+  "editor.fontFamily": "Fira Code",
+  "workbench.colorTheme": "GitHub Dark",
+  "vim.useSystemClipboard": true
+}
