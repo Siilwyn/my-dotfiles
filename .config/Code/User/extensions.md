@@ -1,4 +1,5 @@
-- vscodevim.vim
 - editorconfig.editorconfig
+- vscodevim.vim
 - github.github-vscode-theme
 - matklad.rust-analyzer
+- prisma.prisma
