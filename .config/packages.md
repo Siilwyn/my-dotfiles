@@ -15,6 +15,8 @@
 - firefox
 - chromium
 - vscode
+- oni
+- beekeeper
 - geary
 - gnome-pomodoro
 - fractal
