@@ -2,7 +2,7 @@
 Description=Change the desktop appearance to a dark theme on sunset.
 
 [Timer]
-OnCalendar=*-*-* 17:30:00
+OnCalendar=*-*-* 17:00:00
 Persistent=true
 
 [Install]
