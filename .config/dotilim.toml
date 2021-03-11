@@ -1,4 +1,4 @@
 version = 1
-sources = ["~/Pictures/Wallpapers/**/*.jpg"]
+sources = ["~/Pictures/Wallpapers/**/*.jpg", "~/Pictures/Wallpapers/**/*.png"]
 duration = 10000
 order = "random"
