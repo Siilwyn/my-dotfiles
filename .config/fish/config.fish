@@ -10,6 +10,7 @@ set -x RUSTUP_HOME ~/.cache/rustup
 set -x VOLTA_HOME ~/.cache/volta
 
 set -x EDITOR vi
+set -x LESSHISTFILE ~/.config/.lesshst
 set -x PATH $VOLTA_HOME/bin $CARGO_HOME/bin $PATH
 
 # Manage my dotfiles
