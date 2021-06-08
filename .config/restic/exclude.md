@@ -1,8 +1,10 @@
+a-forks
+
 .git
 .cache
+
 node_modules
+
 target
 dist
-.next
-.nuxt
-
+build
