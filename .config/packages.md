@@ -6,6 +6,7 @@
 - dijo
 - pastel
 - bore
+- restic
 
 - rustup
 - volta
@@ -15,10 +16,7 @@
 - firefox
 - chromium
 - vscode
-- oni
-- beekeeper
 - geary
-- gnome-pomodoro
 - fractal
 - fragments
 
