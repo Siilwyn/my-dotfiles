@@ -1,0 +1,8 @@
+[Unit]
+Description=Backup home files with restic.
+
+[Service]
+Type=oneshot
+ExecStart=restic backup --verbose --files-from %h/.config/restic/include.md --exclude-file %h/.config/restic/exclude.md
+ExecStartPost=restic forget --prune --keep-weekly 2 --keep-monthly 6 --keep-yearly 3
+EnvironmentFile=%h/.local/share/restic.txt
