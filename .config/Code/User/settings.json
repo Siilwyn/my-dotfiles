@@ -7,6 +7,7 @@
     "workbench.preferredLightColorTheme": "GitHub Light",
     "workbench.enableExperiments": false,
     "workbench.activityBar.visible": false,
+    "workbench.startupEditor": "none",
     "window.autoDetectColorScheme": true,
     "window.zoomLevel": 1,
     "update.mode": "none",
