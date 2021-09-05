@@ -7,10 +7,10 @@
 - pastel
 - bore
 - restic
+- gh-cli
 
 - rustup
 - volta
-- syncthing
 - podman
 
 - firefox
@@ -19,5 +19,7 @@
 - geary
 - fractal
 - fragments
+- contrast
+- solanum
 
 - fira-code
