@@ -30,3 +30,25 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     }
     return true;
 }
+
+void rgb_matrix_indicators_user(void) {
+    if (host_keyboard_led_state().caps_lock) {
+        rgb_matrix_set_color(3, RGB_WHITE); // CAPS LED
+        rgb_matrix_set_color(67, RGB_WHITE); // Left side LED 1
+        rgb_matrix_set_color(68, RGB_WHITE); // Right side LED 1
+        rgb_matrix_set_color(70, RGB_WHITE); // Left side LED 2
+        rgb_matrix_set_color(71, RGB_WHITE); // Right side LED 2
+        rgb_matrix_set_color(73, RGB_WHITE); // Left side LED 3
+        rgb_matrix_set_color(74, RGB_WHITE); // Right side LED 3
+        rgb_matrix_set_color(76, RGB_WHITE); // Left side LED 4
+        rgb_matrix_set_color(77, RGB_WHITE); // Right side LED 4
+        rgb_matrix_set_color(80, RGB_WHITE); // Left side LED 5
+        rgb_matrix_set_color(81, RGB_WHITE); // Right side LED 5
+        rgb_matrix_set_color(83, RGB_WHITE); // Left side LED 6
+        rgb_matrix_set_color(84, RGB_WHITE); // Right side LED 6
+        rgb_matrix_set_color(87, RGB_WHITE); // Left side LED 7
+        rgb_matrix_set_color(88, RGB_WHITE); // Right side LED 7
+        rgb_matrix_set_color(91, RGB_WHITE); // Left side LED 8
+        rgb_matrix_set_color(92, RGB_WHITE); // Right side LED 8
+    }
+}
