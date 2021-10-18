@@ -4,6 +4,7 @@ set fish_greeting
 set -x NODE_REPL_HISTORY ~/.cache/.node-repl
 set -x NPM_CONFIG_CACHE ~/.cache/npm
 set -x NPM_CONFIG_USERCONFIG ~/.config/npmrc
+set -x NPM_CONFIG_UPDATE_NOTIFIER false
 
 set -x CARGO_HOME ~/.cache/cargo
 set -x RUSTUP_HOME ~/.cache/rustup
