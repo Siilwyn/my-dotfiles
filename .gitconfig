@@ -19,3 +19,5 @@
     autoStash = true
 [init]
     defaultBranch = main
+[includeIf "gitdir:~/codeground/a-voorhoede/a-forks/"]
+    path = ~/codeground/a-voorhoede/.gitconfig
