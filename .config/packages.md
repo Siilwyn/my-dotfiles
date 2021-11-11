@@ -1,6 +1,17 @@
+# Packages
+
+## Base
 - fish
 - git
 - neovim
+- fira-code
+
+## CLI Base
+- rustup
+- volta
+- podman
+
+## CLI apps
 - httpie
 - glow
 - dijo
@@ -9,10 +20,7 @@
 - restic
 - gh-cli
 
-- rustup
-- volta
-- podman
-
+## GUI apps
 - firefox
 - chromium
 - vscode
@@ -21,5 +29,3 @@
 - fragments
 - contrast
 - solanum
-
-- fira-code
