@@ -19,6 +19,8 @@
 - bore
 - restic
 - gh-cli
+- sfz
+- npm-check
 
 ## GUI apps
 - firefox
@@ -29,3 +31,4 @@
 - fragments
 - contrast
 - solanum
+- vlc
