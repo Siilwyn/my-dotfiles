@@ -13,3 +13,8 @@ build
 _build
 
 Music/Inbox
+
+*.DS_Store
+*.swp
+.localized
+.Trash
