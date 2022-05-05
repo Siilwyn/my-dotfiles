@@ -12,7 +12,6 @@
 - podman
 
 ## CLI apps
-- httpie
 - glow
 - dijo
 - pastel
@@ -20,13 +19,14 @@
 - restic
 - gh-cli
 - sfz
-- npm-check
+- thokr
 
 ## GUI apps
 - firefox
 - chromium
-- vscode
 - geary
+- amberol
+- vscode
 - fractal
 - fragments
 - contrast
