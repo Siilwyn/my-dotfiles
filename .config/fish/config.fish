@@ -15,7 +15,7 @@ set -x VOLTA_HOME ~/.cache/volta
 
 set -x EDITOR vi
 set -x LESSHISTFILE ~/.config/.lesshst
-set -x PATH $VOLTA_HOME/bin $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin /opt/homebrew/bin $PATH
+set -x PATH $VOLTA_HOME/bin $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin /opt/homebrew/bin /opt/homebrew/opt $PATH
 
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
