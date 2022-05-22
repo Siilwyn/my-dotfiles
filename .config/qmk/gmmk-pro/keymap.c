@@ -28,7 +28,7 @@ bool encoder_update_user(uint8_t index, bool clockwise) {
     } else {
       tap_code(KC_VOLD);
     }
-    return true;
+    return false;
 }
 
 void rgb_matrix_indicators_user(void) {
