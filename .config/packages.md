@@ -20,6 +20,7 @@
 - gh-cli
 - sfz
 - thokr
+- njt
 
 ## GUI apps
 - firefox
