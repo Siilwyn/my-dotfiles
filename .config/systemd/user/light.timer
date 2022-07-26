@@ -1,8 +1,8 @@
 [Unit]
-Description=Change the desktop appearance to a light theme on sunrise.
+Description=Change the desktop appearance to a light theme in the morning.
 
 [Timer]
-OnCalendar=*-*-* 07:00:00
+OnCalendar=*-*-* 10:00:00
 Persistent=true
 
 [Install]

@@ -3,4 +3,4 @@ Description=Change the desktop appearance to a light theme on sunrise.
 
 [Service]
 Environment=DBUS_SESSION_BUS_ADDRESS=unix:path=/run/user/1000/bus
-ExecStart=/usr/bin/gsettings set org.gnome.desktop.interface gtk-theme Adwaita
+ExecStart=/usr/bin/gsettings set org.gnome.desktop.interface color-scheme default
