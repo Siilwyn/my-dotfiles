@@ -10,6 +10,8 @@
 - rustup
 - volta
 - podman
+- deno
+- wl-clipboard
 
 ## CLI apps
 - glow
@@ -17,10 +19,11 @@
 - pastel
 - bore
 - restic
-- gh-cli
+- gh
 - sfz
-- thokr
 - njt
+- helix
+- xh
 
 ## GUI apps
 - firefox
