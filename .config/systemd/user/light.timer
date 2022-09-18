@@ -1,9 +1,0 @@
-[Unit]
-Description=Change the desktop appearance to a light theme in the morning.
-
-[Timer]
-OnCalendar=*-*-* 10:00:00
-Persistent=true
-
-[Install]
-WantedBy=timers.target

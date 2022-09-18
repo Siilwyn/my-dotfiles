@@ -1,9 +1,0 @@
-[Unit]
-Description=Change the desktop appearance to a dark theme in the evening.
-
-[Timer]
-OnCalendar=*-*-* 17:00:00
-Persistent=true
-
-[Install]
-WantedBy=timers.target
