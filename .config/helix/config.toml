@@ -1,0 +1,11 @@
+[editor]
+line-number = "relative"
+
+[editor.file-picker]
+hidden = false
+
+[keys.normal]
+C-s = ":write"
+
+[keys.insert]
+C-s = ":write"
