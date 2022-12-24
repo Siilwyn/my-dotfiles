@@ -1,4 +1,6 @@
 [editor]
+auto-save = true
+bufferline = "always"
 line-number = "relative"
 
 [editor.file-picker]
