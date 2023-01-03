@@ -1,6 +1,7 @@
 [user]
     name = Selwyn
     email = talk@selwyn.cc
+    signingkey = ~/.ssh/id_ed25519.pub
 [alias]
     ad = add .
     br = branch
@@ -19,5 +20,10 @@
     autoStash = true
 [init]
     defaultBranch = main
+[gpg]
+    format = ssh
+[commit]
+    gpgsign = true
+
 [includeIf "gitdir:~/codeground/a-voorhoede/a-forks/"]
     path = ~/codeground/a-voorhoede/.gitconfig
