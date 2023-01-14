@@ -14,7 +14,7 @@
 [push]
     default = current
 [core]
-    editor = nvim -c 'put_' -c 'startinsert'
+    editor = flatpak run --file-forwarding re.sonny.Commit @@
     excludesfile = ~/.config/.global-gitignore
 [rebase]
     autoStash = true
