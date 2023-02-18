@@ -22,16 +22,14 @@ const uint16_t PROGMEM keymaps[][MATRIX_ROWS][MATRIX_COLS] = {
 
 };
 
-bool encoder_update_user(uint8_t index, bool clockwise) {
-    if (clockwise) {
-        tap_code(KC_VOLU);
-    } else {
-        tap_code(KC_VOLD);
-    }
-    return false;
-}
+#if defined(ENCODER_MAP_ENABLE)
+const uint16_t PROGMEM encoder_map[][NUM_ENCODERS][2] = {
+    [0] = { ENCODER_CCW_CW(KC_VOLD, KC_VOLU) },
+    [1] = { ENCODER_CCW_CW(KC_TRNS, KC_TRNS) }
+};
+#endif
 
-void rgb_matrix_indicators_user(void) {
+bool rgb_matrix_indicators_user(void) {
     if (host_keyboard_led_state().caps_lock) {
         rgb_matrix_set_color(3, RGB_WHITE); // CAPS LED
         rgb_matrix_set_color(67, RGB_WHITE); // Left side LED 1
@@ -51,4 +49,5 @@ void rgb_matrix_indicators_user(void) {
         rgb_matrix_set_color(91, RGB_WHITE); // Left side LED 8
         rgb_matrix_set_color(92, RGB_WHITE); // Right side LED 8
     }
+    return false;
 }
