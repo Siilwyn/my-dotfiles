@@ -3,7 +3,7 @@
 ## Base
 - fish
 - git
-- neovim
+- rsync
 - fira-code
 
 ## CLI Base
@@ -14,16 +14,15 @@
 - wl-clipboard
 
 ## CLI apps
-- glow
 - dijo
 - pastel
 - bore
 - restic
 - gh
 - sfz
-- njt
 - helix
 - xh
+- syncthing
 
 ## GUI apps
 - firefox
@@ -36,3 +35,4 @@
 - contrast
 - solanum
 - vlc
+- commit
