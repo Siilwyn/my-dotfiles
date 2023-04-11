@@ -24,6 +24,8 @@
     format = ssh
 [commit]
     gpgsign = true
+[diff]
+    external = difft
 
 [includeIf "gitdir:~/codeground/a-voorhoede/a-forks/"]
     path = ~/codeground/a-voorhoede/.gitconfig

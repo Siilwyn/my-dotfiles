@@ -23,6 +23,7 @@
 - helix
 - xh
 - syncthing
+- difftastic
 
 ## GUI apps
 - firefox
