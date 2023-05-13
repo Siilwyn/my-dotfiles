@@ -1,10 +1,8 @@
 [editor]
-auto-save = true
 bufferline = "always"
 line-number = "relative"
-
-[editor.file-picker]
-hidden = false
+file-picker.hidden = false
+soft-wrap.enable = true
 
 [keys.normal]
 C-s = ":write"
