@@ -1,6 +1,0 @@
-- editorconfig.editorconfig
-- vscodevim.vim
-- github.github-vscode-theme
-- matklad.rust-analyzer
-- denoland.vscode-deno
-- prisma.prisma

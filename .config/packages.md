@@ -30,7 +30,6 @@
 - chromium
 - geary
 - amberol
-- vscode
 - fractal
 - fragments
 - contrast
