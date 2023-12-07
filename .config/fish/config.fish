@@ -1,5 +1,8 @@
 set fish_greeting
 
+set -x XDG_DATA_HOME ~/.local/share
+set -x XDG_CONFIG_HOME ~/.config
+
 # Set environment variables
 set -x NODE_REPL_HISTORY ~/.cache/.node-repl
 set -x NPM_CONFIG_CACHE ~/.cache/npm
