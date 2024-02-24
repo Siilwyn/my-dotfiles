@@ -11,21 +11,21 @@
     st = status
     up = pull --rebase
     re = restore
-[push]
-    default = current
 [core]
     editor = flatpak run --file-forwarding re.sonny.Commit @@
     excludesfile = ~/.config/.global-gitignore
-[rebase]
-    autoStash = true
-[init]
-    defaultBranch = main
-[gpg]
-    format = ssh
 [commit]
     gpgsign = true
 [diff]
     external = difft
+[gpg]
+    format = ssh
+[init]
+    defaultBranch = main
+[push]
+    default = current
+[rebase]
+    autoStash = true
 
 [includeIf "gitdir:~/codeground/a-voorhoede/a-forks/"]
     path = ~/codeground/a-voorhoede/.gitconfig
