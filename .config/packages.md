@@ -19,7 +19,6 @@
 - bore
 - restic
 - gh
-- sfz
 - helix
 - xh
 - syncthing
@@ -36,3 +35,4 @@
 - solanum
 - vlc
 - commit
+- forge-sparks
