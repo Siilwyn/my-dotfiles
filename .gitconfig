@@ -23,9 +23,11 @@
 [init]
     defaultBranch = main
 [push]
-    default = current
+    autoSetupRemote = true
 [rebase]
     autoStash = true
+[rerere]
+    enabled = true
 
 [includeIf "gitdir:~/codeground/a-voorhoede/a-forks/"]
     path = ~/codeground/a-voorhoede/.gitconfig
