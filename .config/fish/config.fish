@@ -18,7 +18,7 @@ set -x NPM_CONFIG_UPDATE_NOTIFIER false
 set -x GH_NO_UPDATE_NOTIFIER true
 
 set -x EDITOR vi
-set -x PATH $VOLTA_HOME/bin $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin $PATH
+set -x PATH $VOLTA_HOME/bin $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin $GOPATH/bin $PATH
 
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
