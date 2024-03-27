@@ -3,21 +3,21 @@ set fish_greeting
 set -x XDG_DATA_HOME ~/.local/share
 set -x XDG_CONFIG_HOME ~/.config
 
-# Set environment variables
+# XDG list of shame
+set -x RUSTUP_HOME ~/.cache/rustup
+set -x CARGO_HOME ~/.cache/cargo
+set -x VOLTA_HOME ~/.cache/volta
 set -x NODE_REPL_HISTORY ~/.cache/.node-repl
 set -x NPM_CONFIG_CACHE ~/.cache/npm
 set -x NPM_CONFIG_USERCONFIG ~/.config/npmrc
+set -x LESSHISTFILE ~/.config/.lesshst
+set -x GOPATH $XDG_DATA_HOME/go
 
 # Disable silly update notifications
 set -x NPM_CONFIG_UPDATE_NOTIFIER false
 set -x GH_NO_UPDATE_NOTIFIER true
 
-set -x CARGO_HOME ~/.cache/cargo
-set -x RUSTUP_HOME ~/.cache/rustup
-set -x VOLTA_HOME ~/.cache/volta
-
 set -x EDITOR vi
-set -x LESSHISTFILE ~/.config/.lesshst
 set -x PATH $VOLTA_HOME/bin $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin $PATH
 
 # Manage my dotfiles
