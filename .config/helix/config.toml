@@ -6,6 +6,7 @@ soft-wrap.enable = true
 
 [keys.normal]
 C-s = ":write"
+C-r = ":reload"
 
 [keys.insert]
 C-s = ":write"
