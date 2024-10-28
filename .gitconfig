@@ -5,8 +5,8 @@
 [alias]
     ad = add .
     br = branch
-    ci = commit
-    co = checkout
+    bl = blame -w -C -C -C
+    co = commit
     lo = log --oneline -n 15
     st = status
     up = pull --rebase
