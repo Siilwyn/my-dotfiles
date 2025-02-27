@@ -1,6 +1,7 @@
 /home/siilwyn/Pictures
 /home/siilwyn/Music
 /home/siilwyn/Documents
+/home/siilwyn/Templates
 /home/siilwyn/codeground
 /home/siilwyn/.local/share/dijo
 /home/siilwyn/.local/share/restic.txt
