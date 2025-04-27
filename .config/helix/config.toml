@@ -1,3 +1,5 @@
+theme = "catppuccin_latte"
+
 [editor]
 bufferline = "always"
 line-number = "relative"
