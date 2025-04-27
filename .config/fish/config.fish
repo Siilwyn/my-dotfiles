@@ -16,7 +16,7 @@ set -x GOPATH $XDG_DATA_HOME/go
 set -x NPM_CONFIG_UPDATE_NOTIFIER false
 set -x GH_NO_UPDATE_NOTIFIER true
 
-set -x EDITOR vi
+set -x EDITOR hx
 set -x PATH $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin $GOPATH/bin $PATH
 mise activate fish --shims | source
 # Manage my dotfiles
