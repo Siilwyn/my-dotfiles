@@ -1,12 +1,14 @@
 [[language]]
 name = "typescript"
 roots = ["deno.json", "deno.jsonc", "package.json"]
+file-types = ["ts", "mts", "tsx"]
 auto-format = true
 language-servers = ["deno-lsp"]
 
 [[language]]
 name = "javascript"
 roots = ["deno.json", "deno.jsonc", "package.json"]
+file-types = ["js", "mjs", "jsx"]
 auto-format = true
 language-servers = ["deno-lsp"]
 
