@@ -5,3 +5,7 @@ deno = "latest"
 node = "lts"
 pnpm = "latest"
 go = "latest"
+"go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
+
+[settings]
+experimental = true
