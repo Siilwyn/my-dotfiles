@@ -11,6 +11,7 @@
 - mise
 - flac
 - wl-clipboard
+- postgresql
 
 ## CLI apps
 - bore
@@ -47,3 +48,4 @@
 - discord
 - video trimmer
 - halloy
+- beekeeper studio
