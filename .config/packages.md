@@ -21,6 +21,10 @@
 - pastel
 - restic
 - xh
+- yt-dlp
+- zizmor
+- bacon
+- glow
 
 ## GUI apps
 ### Core
@@ -28,9 +32,14 @@
 - firefox
 - geary
 - amberol
+- recordbox
 - solanum
 - syncthing
 - vlc
+- showtime
+- mission center
+- gimp
+- typewriter
 
 ### Other
 - chromium
@@ -49,3 +58,8 @@
 - video trimmer
 - halloy
 - beekeeper studio
+- bruno
+- gitbutler
+- mixxx
+- keypunch
+- pods
