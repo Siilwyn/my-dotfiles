@@ -25,6 +25,7 @@
 - zizmor
 - bacon
 - glow
+- oha
 
 ## GUI apps
 ### Core
