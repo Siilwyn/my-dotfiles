@@ -10,6 +10,7 @@
 - podman
 - mise
 - flac
+- rsgain
 - wl-clipboard
 - postgresql
 
