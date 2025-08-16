@@ -14,7 +14,7 @@
 - postgresql
 
 ## CLI apps
-- bore
+- doggo
 - difftastic
 - gh
 - helix
