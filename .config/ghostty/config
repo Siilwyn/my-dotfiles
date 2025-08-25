@@ -1,0 +1,6 @@
+command = fish
+theme = light:catppuccin-latte,dark:catppuccin-mocha
+scrollback-limit = 100_000_000
+
+keybind = performable:ctrl+c=copy_to_clipboard
+keybind = ctrl+v=paste_from_clipboard  
