@@ -4,7 +4,8 @@
   "auto_install_extensions": {
     "catppuccin": true,
     "codebook": true,
-    "git-firefly": true
+    "git-firefly": true,
+    "vue": true
   },
   "theme": {
     "mode": "system",
