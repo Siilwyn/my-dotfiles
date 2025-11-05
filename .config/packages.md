@@ -27,6 +27,7 @@
 - bacon
 - glow
 - oha
+- mergiraf
 
 ## GUI apps
 ### Core

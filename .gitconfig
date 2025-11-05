@@ -33,3 +33,8 @@
 
 [includeIf "gitdir:~/codeground/a-voorhoede/a-forks/"]
     path = ~/codeground/a-voorhoede/.gitconfig
+[merge]
+	conflictStyle = diff3
+[merge "mergiraf"]
+	name = mergiraf
+	driver = mergiraf merge --git %O %A %B -s %S -x %X -y %Y -p %P -l %L
