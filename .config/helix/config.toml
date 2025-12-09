@@ -5,6 +5,7 @@ bufferline = "always"
 line-number = "relative"
 file-picker.hidden = false
 soft-wrap.enable = true
+atomic-save = false
 
 [keys.normal]
 C-s = ":write"
