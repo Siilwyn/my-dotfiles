@@ -28,6 +28,7 @@
 - glow
 - oha
 - mergiraf
+- xan
 
 ## GUI apps
 ### Core
@@ -66,3 +67,4 @@
 - mixxx
 - keypunch
 - pods
+- constrict
