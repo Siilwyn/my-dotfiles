@@ -2,23 +2,28 @@
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "auto_install_extensions": {
+    // themes
     "catppuccin": true,
-    "codebook": true,
+    // core
     "git-firefly": true,
-    "vue": true
+    // other
+    "codebook": true,
+    "deno": true,
+    "graphql": true,
+    "vue": true,
   },
   "theme": {
     "mode": "system",
     "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha"
+    "dark": "Catppuccin Mocha",
   },
   "edit_predictions": {
     "mode": "subtle",
-    "enabled_in_text_threads": false
+    "enabled_in_text_threads": false,
   },
   "terminal": {
     "shell": {
-      "program": "fish"
-    }
-  }
+      "program": "fish",
+    },
+  },
 }
