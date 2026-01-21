@@ -4,6 +4,8 @@
   "auto_install_extensions": {
     // themes
     "catppuccin": true,
+    "rose-pine-theme": true,
+    "alabaster": true,
     // core
     "git-firefly": true,
     // other
