@@ -8,6 +8,7 @@
     "alabaster": true,
     // core
     "git-firefly": true,
+    "toml": true,
     // other
     "codebook": true,
     "deno": true,
