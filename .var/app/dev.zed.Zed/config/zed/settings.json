@@ -13,6 +13,7 @@
     "codebook": true,
     "deno": true,
     "graphql": true,
+    "astro": true,
     "vue": true,
   },
   "theme": {
@@ -27,6 +28,23 @@
   "terminal": {
     "shell": {
       "program": "fish",
+    },
+  },
+  "languages": {
+    "Astro": {
+      "language_servers": ["!tailwindcss-language-server", "..."],
+    },
+    "JavaScript": {
+      "language_servers": ["deno", "!typescript-language-server"],
+      "formatter": "language_server",
+    },
+    "TypeScript": {
+      "language_servers": ["deno", "!typescript-language-server"],
+      "formatter": "language_server",
+    },
+    "TSX": {
+      "language_servers": ["deno", "!typescript-language-server"],
+      "formatter": "language_server",
     },
   },
 }
