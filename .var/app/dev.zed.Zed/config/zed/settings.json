@@ -30,6 +30,15 @@
       "program": "fish",
     },
   },
+  "lsp": {
+    "deno": {
+      "settings": {
+        "deno": {
+          "enable": true,
+        },
+      },
+    },
+  },
   "languages": {
     "Astro": {
       "language_servers": ["!tailwindcss-language-server", "..."],
