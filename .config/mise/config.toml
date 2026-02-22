@@ -4,9 +4,10 @@ usage = "latest"
 deno = "latest"
 node = "lts"
 pnpm = "latest"
+"npm:publint" = "latest"
+
 go = "latest"
 "go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
 
 [settings]
-experimental = true
 idiomatic_version_file_enable_tools = ["node"]
