@@ -16,3 +16,11 @@ language-servers = ["deno-lsp"]
 command = "deno"
 args = ["lsp"]
 config.deno.enable = true
+
+[language-server.codebook]
+command = "codebook-lsp"
+args = ["serve"]
+
+[[language]]
+name = "markdown"
+language-servers = ["codebook"]

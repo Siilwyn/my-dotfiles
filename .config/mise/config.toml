@@ -9,5 +9,7 @@ pnpm = "latest"
 go = "latest"
 "go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
 
+"cargo:codebook-lsp" = "latest"
+
 [settings]
 idiomatic_version_file_enable_tools = ["node"]
