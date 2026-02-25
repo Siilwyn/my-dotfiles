@@ -9,6 +9,7 @@
     // core
     "git-firefly": true,
     "toml": true,
+    "sql": true,
     // other
     "codebook": true,
     "deno": true,
