@@ -44,11 +44,11 @@
 - mission center
 - gimp
 - typewriter
+- ear tag
 
 ### Other
 - chromium
 - epiphany
-- eartag
 - mousai
 - bitwig
 - apostrophe
@@ -69,3 +69,5 @@
 - pods
 - constrict
 - dippi
+- iotas
+- forge sparks
