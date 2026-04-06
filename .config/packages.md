@@ -36,14 +36,13 @@
 - firefox
 - geary
 - amberol
-- recordbox
 - solanum
 - syncthing
 - vlc
 - showtime
 - mission center
 - gimp
-- typewriter
+- typesetter
 - ear tag
 
 ### Other
@@ -63,7 +62,6 @@
 - halloy
 - beekeeper studio
 - bruno
-- gitbutler
 - mixxx
 - keypunch
 - pods
@@ -71,3 +69,4 @@
 - dippi
 - iotas
 - forge sparks
+- flare
