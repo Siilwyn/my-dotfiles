@@ -32,7 +32,7 @@
 
 ## GUI apps
 ### Core
-- black box
+- ghostty
 - firefox
 - geary
 - amberol
