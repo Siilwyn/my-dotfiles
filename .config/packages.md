@@ -70,3 +70,4 @@
 - iotas
 - forge sparks
 - flare
+- libreoffice writer
