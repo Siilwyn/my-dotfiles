@@ -22,7 +22,6 @@
 - pastel
 - restic
 - xh
-- yt-dlp
 - zizmor
 - bacon
 - glow
@@ -71,3 +70,4 @@
 - forge sparks
 - flare
 - libreoffice writer
+- parabolic
