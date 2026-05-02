@@ -26,6 +26,7 @@ alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 alias doh='commandline -i "sudo $history[1]"; history delete --exact --case-sensitive doh'
 alias ll='ls -l --almost-all --human-readable'
 alias listapps='dnf list --installed | grep @@commandline; flatpak list --app; mise list --global; cargo install --list'
+alias rsgain-dir='rsgain easy --preset no_album --skip-existing .'
 
 # npm
 alias nps='npm start'
