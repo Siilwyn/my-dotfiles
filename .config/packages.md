@@ -71,3 +71,4 @@
 - flare
 - libreoffice writer
 - parabolic
+- wildcard
