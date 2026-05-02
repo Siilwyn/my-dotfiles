@@ -1,20 +1,20 @@
 # Packages
 
-## Base
+## CLI
+
+### Base
 - fish
 - git
 - rsync
-
-## CLI Base
+- mise
 - rustup
 - podman
-- mise
 - flac
 - rsgain
 - wl-clipboard
 - postgresql
 
-## CLI apps
+### Apps
 - doggo
 - difftastic
 - gh
@@ -29,47 +29,55 @@
 - mergiraf
 - xan
 
-## GUI apps
+## GUI
 ### Core
 - ghostty
 - firefox
 - geary
-- amberol
 - solanum
 - syncthing
+- fragments
+- amberol
 - vlc
 - showtime
 - mission center
-- gimp
-- typesetter
 - ear tag
 
-### Other
-- chromium
-- epiphany
-- mousai
-- bitwig
+### Documents
+- typesetter
+- libreoffice writer
 - apostrophe
-- fractal
-- fragments
-- contrast
-- commit
-- zed
-- steam
-- discord
+- iotas
+
+### Creative
+- gimp
+- bitwig
+- mixxx
 - video trimmer
-- halloy
+- constrict
+
+### Code
+- epiphany
+- chromium
+- zed
+- commit
+- forge sparks
+- wildcard
+- pods
+- bobby
 - beekeeper studio
 - bruno
-- mixxx
-- keypunch
-- pods
-- constrict
-- dippi
-- iotas
-- forge sparks
+
+### Social
+- discord
+- halloy
 - flare
-- libreoffice writer
+- fractal
+
+### Other
+- mousai
+- steam
 - parabolic
-- wildcard
-- bobby
+- dippi
+- keypunch
+- contrast
