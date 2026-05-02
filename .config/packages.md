@@ -72,3 +72,4 @@
 - libreoffice writer
 - parabolic
 - wildcard
+- bobby
