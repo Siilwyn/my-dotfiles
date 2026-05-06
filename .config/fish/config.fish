@@ -11,6 +11,7 @@ set -x NPM_CONFIG_CACHE ~/.cache/npm
 set -x NPM_CONFIG_USERCONFIG ~/.config/npmrc
 set -x LESSHISTFILE ~/.config/.lesshst
 set -x GOPATH $XDG_DATA_HOME/go
+set -x PI_CODING_AGENT_DIR ~/.config/pi/agent
 
 # Disable silly update notifications
 set -x NPM_CONFIG_UPDATE_NOTIFIER false

@@ -6,6 +6,7 @@ node = "lts"
 pnpm = "latest"
 "npm:publint" = "latest"
 "npm:knip" = "latest"
+"npm:@mariozechner/pi-coding-agent" = "latest"
 
 go = "latest"
 "go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
