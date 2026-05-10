@@ -47,7 +47,6 @@
 - typesetter
 - libreoffice writer
 - apostrophe
-- iotas
 
 ### Creative
 - gimp
