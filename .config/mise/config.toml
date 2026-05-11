@@ -3,13 +3,14 @@ usage = "latest"
 
 deno = "latest"
 node = "lts"
-pnpm = "latest"
+"github:pnpm/pnpm" = "latest"
 "npm:publint" = "latest"
 "npm:knip" = "latest"
 "npm:@mariozechner/pi-coding-agent" = "latest"
 
 go = "latest"
 "go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
+"go:github.com/charmbracelet/crush" = "latest"
 
 "cargo:codebook-lsp" = "latest"
 "cargo:jnv" = "latest"
