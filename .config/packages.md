@@ -65,6 +65,7 @@
 - pods
 - bobby
 - beekeeper studio
+- codd
 - bruno
 
 ### Social
