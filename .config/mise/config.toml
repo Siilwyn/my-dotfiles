@@ -6,7 +6,7 @@ node = "lts"
 "github:pnpm/pnpm" = "latest"
 "npm:publint" = "latest"
 "npm:knip" = "latest"
-"npm:@mariozechner/pi-coding-agent" = "latest"
+"npm:@earendil-works/pi-coding-agent" = "latest"
 "npm:yaml-language-server" = "latest"
 
 go = "latest"
