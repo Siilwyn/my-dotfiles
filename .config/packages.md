@@ -38,6 +38,7 @@
 - syncthing
 - fragments
 - amberol
+- decibels
 - vlc
 - showtime
 - mission center
