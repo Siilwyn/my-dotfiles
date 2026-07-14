@@ -2,6 +2,19 @@
   "ui_font_size": 16,
   "buffer_font_size": 16,
   "cli_default_open_behavior": "new_window",
+  "theme": {
+    "mode": "system",
+    "light": "Catppuccin Latte",
+    "dark": "Catppuccin Mocha",
+  },
+  "edit_predictions": {
+    "mode": "subtle",
+  },
+  "terminal": {
+    "shell": {
+      "program": "fish",
+    },
+  },
   "auto_install_extensions": {
     // themes
     "catppuccin": true,
@@ -18,19 +31,6 @@
     "astro": true,
     "vue": true,
   },
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte",
-    "dark": "Catppuccin Mocha",
-  },
-  "edit_predictions": {
-    "mode": "subtle",
-  },
-  "terminal": {
-    "shell": {
-      "program": "fish",
-    },
-  },
   "lsp": {
     "deno": {
       "settings": {
@@ -40,10 +40,8 @@
       },
     },
   },
+  "language_servers": ["...", "!tailwindcss-language-server"],
   "languages": {
-    "Astro": {
-      "language_servers": ["!tailwindcss-language-server", "..."],
-    },
     "JavaScript": {
       "language_servers": ["deno", "!typescript-language-server"],
       "formatter": "language_server",
