@@ -3,6 +3,7 @@ usage = "latest"
 
 deno = "latest"
 node = "lts"
+aube = "latest"
 "github:pnpm/pnpm" = "latest"
 "npm:publint" = "latest"
 "npm:knip" = "latest"
