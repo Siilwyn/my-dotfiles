@@ -13,9 +13,10 @@ set -x LESSHISTFILE ~/.config/.lesshst
 set -x GOPATH $XDG_DATA_HOME/go
 set -x PI_CODING_AGENT_DIR ~/.config/pi/agent
 
-# Disable silly update notifications
+# Update check wall of shame
 set -x NPM_CONFIG_UPDATE_NOTIFIER false
 set -x GH_NO_UPDATE_NOTIFIER true
+set -x DENO_NO_UPDATE_CHECK true
 
 set -x EDITOR hx
 set -x PATH $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin $GOPATH/bin $PATH
