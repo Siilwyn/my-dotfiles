@@ -35,6 +35,7 @@
 - firefox
 - geary
 - solanum
+- sessions
 - syncthing
 - fragments
 - amberol
@@ -82,3 +83,4 @@
 - dippi
 - keypunch
 - contrast
+- nicotine+
