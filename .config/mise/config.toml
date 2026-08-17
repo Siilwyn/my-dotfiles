@@ -1,22 +1,28 @@
 [tools]
+# base
 usage = "latest"
-
 deno = "latest"
+go = "latest"
 node = "lts"
 aube = "latest"
 "github:pnpm/pnpm" = "latest"
-"npm:publint" = "latest"
-"npm:knip" = "latest"
-"npm:@earendil-works/pi-coding-agent" = "latest"
+
+# lsps
+"cargo:codebook-lsp" = "latest"
 "npm:yaml-language-server" = "latest"
 
-go = "latest"
-"go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
-"go:github.com/charmbracelet/crush" = "latest"
-
-"cargo:codebook-lsp" = "latest"
+# dev tooling
+"npm:publint" = "latest"
+"npm:knip" = "latest"
 "cargo:jnv" = "latest"
 "cargo:mergiraf" = "latest"
+"go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
+"npm:@earendil-works/pi-coding-agent" = "latest"
+"go:github.com/charmbracelet/crush" = "latest"
+"npm:agent-browser" = "latest"
+
+# other
+"cargo:baken" = "latest"
 
 [settings]
 idiomatic_version_file_enable_tools = ["node"]
