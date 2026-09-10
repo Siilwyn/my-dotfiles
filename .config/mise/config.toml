@@ -19,6 +19,7 @@ aube = "latest"
 "go:github.com/mr-karan/doggo/cmd/doggo" = "latest"
 "npm:@earendil-works/pi-coding-agent" = "latest"
 "go:github.com/charmbracelet/crush" = "latest"
+"github:tontinton/maki" = "latest"
 "npm:agent-browser" = "latest"
 
 # other
