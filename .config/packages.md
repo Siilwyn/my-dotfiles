@@ -1,4 +1,5 @@
 # Packages
+Also see mise config...
 
 ## CLI
 
@@ -7,40 +8,31 @@
 - git
 - rsync
 - mise
-- rustup
 - podman
 - flac
 - rsgain
 - wl-clipboard
+- ripgrep
 - postgresql
 
 ### Apps
-- doggo
 - difftastic
 - gh
 - helix
-- pastel
 - restic
-- xh
-- zizmor
-- bacon
 - glow
-- oha
-- mergiraf
-- xan
 
 ## GUI
 ### Core
 - ghostty
 - firefox
-- geary
+- thunderbird
 - solanum
 - sessions
 - syncthing
 - fragments
 - amberol
 - decibels
-- vlc
 - showtime
 - mission center
 - ear tag
@@ -62,11 +54,11 @@
 - chromium
 - zed
 - commit
+- gitte
 - forge sparks
 - wildcard
 - pods
 - bobby
-- beekeeper studio
 - codd
 - bruno
 
