@@ -1,4 +1,4 @@
-theme = "catppuccin_latte"
+theme = "catppuccin_mocha"
 
 [editor]
 bufferline = "always"
@@ -10,6 +10,7 @@ atomic-save = false
 [keys.normal]
 C-s = ":write"
 C-r = ":reload"
+C-b = ":buffer-close"
 
 [keys.insert]
 C-s = ":write"
