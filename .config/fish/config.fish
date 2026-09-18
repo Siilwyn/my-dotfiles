@@ -21,6 +21,9 @@ set -x DENO_NO_UPDATE_CHECK true
 set -x EDITOR hx
 set -x PATH $CARGO_HOME/bin $RUSTUP_HOME/toolchains/*/bin $GOPATH/bin $PATH
 mise activate fish --shims | source
+
+set -x DOCKER_HOST "unix://$XDG_RUNTIME_DIR/podman/podman.sock"
+
 # Manage my dotfiles
 alias mydotfiles='git --git-dir=$HOME/.my-dotfiles/ --work-tree=$HOME'
 
