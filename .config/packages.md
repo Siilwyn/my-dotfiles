@@ -34,6 +34,7 @@ Also see mise config...
 - amberol
 - decibels
 - showtime
+- vlc
 - mission center
 - ear tag
 
