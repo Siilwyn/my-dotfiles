@@ -77,3 +77,4 @@ Also see mise config...
 - keypunch
 - contrast
 - nicotine+
+- nook desktop
