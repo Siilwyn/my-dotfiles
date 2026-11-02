@@ -26,7 +26,7 @@ Also see mise config...
 ### Core
 - ghostty
 - firefox
-- thunderbird
+- stamp
 - solanum
 - sessions
 - syncthing
