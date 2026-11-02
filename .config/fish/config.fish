@@ -12,6 +12,7 @@ set -x NPM_CONFIG_USERCONFIG ~/.config/npmrc
 set -x LESSHISTFILE ~/.config/.lesshst
 set -x GOPATH $XDG_DATA_HOME/go
 set -x PI_CODING_AGENT_DIR ~/.config/pi/agent
+set -x AGENT_BROWSER_CONFIG ~/.config/agent-browser.json
 
 # Update check wall of shame
 set -x NPM_CONFIG_UPDATE_NOTIFIER false
