@@ -27,8 +27,7 @@ Also see mise config...
 - ghostty
 - firefox
 - stamp
-- solanum
-- sessions
+- deep dive
 - syncthing
 - fragments
 - amberol
@@ -70,6 +69,7 @@ Also see mise config...
 - fractal
 
 ### Other
+- webfont bundler
 - mousai
 - steam
 - parabolic
